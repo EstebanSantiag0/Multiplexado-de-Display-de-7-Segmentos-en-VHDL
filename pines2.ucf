@@ -1,0 +1,19 @@
+#Clock
+NET "clk" LOC = "B8";
+
+#SALIDAS
+
+NET "seg<0>" LOC = "L18"; # Segmento A
+NET "seg<1>" LOC = "F18"; # Segmento B
+NET "seg<2>" LOC = "D17"; # Segmento C
+NET "seg<3>" LOC = "D16"; # Segmento D
+NET "seg<4>" LOC = "G14"; # Segmento E
+NET "seg<5>" LOC = "J17"; # Segmento F
+NET "seg<6>" LOC = "H14"; # Segmento G
+NET "seg<7>" LOC = "C17"; # Punto Decimal (DP)
+
+# Aquí es donde conectamos los selectores a los pines físicos
+NET "disp<0>" LOC = "F17"; # AN0
+NET "disp<1>" LOC = "H17"; # AN1
+NET "disp<2>" LOC = "C18"; # AN2
+NET "disp<3>" LOC = "F15"; # AN3
