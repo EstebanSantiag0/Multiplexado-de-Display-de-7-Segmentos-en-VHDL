@@ -17,6 +17,7 @@ El repositorio incluye **dos versiones** del mismo circuito: una primera versió
 - [Asignación de pines](#asignación-de-pines)
 - [Estructura del repositorio](#estructura-del-repositorio)
 - [Cómo compilar y programar](#cómo-compilar-y-programar)
+- [Autoría](#autoría)
 
 ## Descripción general
 
@@ -99,3 +100,7 @@ djtgcfg prog -d Nexys2 -i 0 -f bin/displayer2.bit
 3. Para compilar la versión mejorada: *Project → Add Source* → `displayer2.vhd` y `pines2.ucf`, márcalo como *Top Module* y vuelve a generar el bitstream.
 
 Verificado: el proyecto compila desde un clon limpio con ISE 14.7 y cumple todas las restricciones de tiempo.
+
+## Autoría
+
+El diseño, los esquemáticos y el código de esta práctica son obra de **Esteban Santiago**. La documentación (este README) se redactó con ayuda de Claude (IA).
